@@ -3,17 +3,21 @@ import com.sun.scenario.animation.shared.ClipEnvelope;
 public class Test_2023_3_7 {
      // 直接插入排序
      public static void main(String[] args) {
-         int[] a = {23,34,65,32,54,23,87,12};
-//         insertSort(a);
-         //shellSorted(a);
-         //bubbleSorted(a);
-//        selectSored(a);
+       while(true){
+           System.out.println(1);
+       }
 
-         duiSorted(a);
-
-         for (int i = 0; i < a.length; i++) {
-             System.out.println(a[i]);
-         }
+//         int[] a = {23,34,65,32,54,23,87,12};
+////         insertSort(a);
+//         //shellSorted(a);
+//         //bubbleSorted(a);
+////        selectSored(a);
+//
+//         duiSorted(a);
+//
+//         for (int i = 0; i < a.length; i++) {
+//             System.out.println(a[i]);
+//         }
      }
 
      public static void siftDown(int[] arr,int root, int length){
